@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pos1 {
+  display: flex;
+  position: relative;
+  left: 120px;
+}
+.pos2 {
+  position: relative;
+  left: 19px;
+  bottom: 60px;
+}
+.pos3 {
+  position: relative;
+  left: 419px;
+  bottom: 233px;
+}
+.pos4 {
+  display: flex;
+  position: relative;
+  left: 120px;
+  bottom: 293px;
+}
+
+.canvas-wrap {
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+canvas {
+  display: block;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
